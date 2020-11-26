@@ -8,10 +8,6 @@ header {
 	display: flex;
 }
 
-.logo-container {
-	display: flex;
-}
-
-.logo {
+#logo {
 	max-width: 200px;
 }

@@ -1,0 +1,9 @@
+* {
+	margin: none;
+	padding: none;
+	box-sizing: border-box;
+}
+
+.logo-container {
+	max-width: 400px;
+}
