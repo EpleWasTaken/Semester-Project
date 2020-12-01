@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo-container {
+	display: flex;
+}
+
+.logo {
+	max-width: 300px;
+	float: left;
+}
+
+nav {
+	display: flex;
+	background-color: black;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+}

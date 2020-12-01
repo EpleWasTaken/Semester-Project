@@ -1,0 +1,15 @@
+/* FOOTER */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}

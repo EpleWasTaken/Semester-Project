@@ -1,0 +1,28 @@
+/* FOOTER */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-social {
+	text-decoration: none;
+}
