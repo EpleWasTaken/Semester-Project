@@ -11,12 +11,11 @@ body {
 
 header {
 	display: flex;
-	background-color: white;
+	background-color: black;
 	height: 159.18px;
 }
 
 h1 {
-	display: none;
 }
 
 nav {

@@ -10,8 +10,8 @@ body {
 }
 
 header {
-	display: flex;
-	background-color: white;
+	display: none;
+	background-color: black;
 	height: 159.18px;
 }
 

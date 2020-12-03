@@ -11,22 +11,12 @@ body {
 
 header {
 	display: flex;
-	background-color: white;
+	background-color: black;
 	height: 159.18px;
 }
 
-h1 {
-	display: none;
-}
-
-nav {
-	display: none;
-}
-
-#hamburger-menu {
-	display: none;
-}
-
-#hamburger-menu:checked ~ nav {
-	display: block;
+.logo {
+	max-width: 300px;
+	margin: 0;
+	padding: 0;
 }
