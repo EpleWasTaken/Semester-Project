@@ -1,6 +1,6 @@
 * {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -15,8 +15,8 @@ header {
 	height: 159.18px;
 }
 
-.logo {
-	max-width: 150px;
+h1 {
+	display: none;
 }
 
 nav {
@@ -27,8 +27,6 @@ label {
 	display: block;
 	height: 48px;
 	padding: 10px;
-	position: absolute;
-	right: 0px;
 }
 
 .hamburger-menu {
@@ -45,16 +43,6 @@ label {
 @media screen and (min-width: 1024px) {
 	nav {
 		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		font-family: 'poppins', sans-serif;
-		background-color: red;
-	}
-
-	.logo {
-		display: flex;
-
-		max-width: 300px;
 	}
 
 	.hamburger-menu {
@@ -63,9 +51,8 @@ label {
 
 	.nav-links {
 		display: flex;
-		width: 30%;
 		background-color: red;
 		justify-content: space-around;
-		align-items: center;
+		width: 30px;
 	}
 }

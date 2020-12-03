@@ -16,7 +16,7 @@ header {
 }
 
 .logo {
-	max-width: 150px;
+	max-width: 100px;
 }
 
 nav {
@@ -27,8 +27,6 @@ label {
 	display: block;
 	height: 48px;
 	padding: 10px;
-	position: absolute;
-	right: 0px;
 }
 
 .hamburger-menu {

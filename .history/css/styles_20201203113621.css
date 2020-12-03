@@ -15,10 +15,6 @@ header {
 	height: 159.18px;
 }
 
-.logo {
-	max-width: 150px;
-}
-
 nav {
 	display: none;
 }
@@ -27,8 +23,6 @@ label {
 	display: block;
 	height: 48px;
 	padding: 10px;
-	position: absolute;
-	right: 0px;
 }
 
 .hamburger-menu {
@@ -53,7 +47,6 @@ label {
 
 	.logo {
 		display: flex;
-
 		max-width: 300px;
 	}
 
@@ -63,7 +56,7 @@ label {
 
 	.nav-links {
 		display: flex;
-		width: 30%;
+
 		background-color: red;
 		justify-content: space-around;
 		align-items: center;

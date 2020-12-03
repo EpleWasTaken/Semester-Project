@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'poppins', sans seriff;
+	background-color: white;
+}
+
+header {
+	display: flex;
+	background-color: white;
+	height: 159.18px;
+}
+
+h1 {
+	display: none;
+}
+
+nav {
+	display: none;
+}
+
+label {
+	display: block;
+	height: 40px;
+	padding: 10px;
+}
+
+#hamburger-menu {
+	display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+	display: block;
+}
