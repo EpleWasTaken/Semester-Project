@@ -23,11 +23,8 @@ nav {
 	display: none;
 }
 
-label {
-	display: block;
-	height: 40px;
-	padding: 10px;
-	right: auto;
+.hamburger-menu {
+	max-width: 20px;
 }
 
 #hamburger-menu {

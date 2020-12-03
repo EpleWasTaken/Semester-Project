@@ -30,6 +30,10 @@ label {
 	right: auto;
 }
 
+.i {
+	max-width: 100px;
+}
+
 #hamburger-menu {
 	display: none;
 }

@@ -30,6 +30,10 @@ label {
 	right: auto;
 }
 
+.fas.fa-bars::before {
+	max-width: 400px;
+}
+
 #hamburger-menu {
 	display: none;
 }

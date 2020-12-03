@@ -23,13 +23,6 @@ nav {
 	display: none;
 }
 
-label {
-	display: block;
-	height: 40px;
-	padding: 10px;
-	right: auto;
-}
-
 #hamburger-menu {
 	display: none;
 }
