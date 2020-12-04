@@ -72,7 +72,7 @@ ul {
 }
 
 @media screen and (min-width: 1024px) {
-	label.hamburger-menu {
+	.hamburger-menu {
 		display: none;
 	}
 }

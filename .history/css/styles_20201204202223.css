@@ -114,9 +114,14 @@ p {
 }
 
 /* GRID Container */
-.visit {
-	display: flexbox;
-	flex-direction: column;
+main {
+	display: grid;
+	grid-template-areas: "Box1" "Box2" "Box3" "Box4";
+}
+
+/* GRID Items */
+div {
+	grid-area: ;
 }
 
 @media screen and (min-width: 1024px) {
@@ -171,12 +176,5 @@ p {
 		font-weight: 600;
 		font-size: 40px;
 		margin: 40px;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-	.visit {
-		display: grid;
-		grid-template-areas: none;
 	}
 }

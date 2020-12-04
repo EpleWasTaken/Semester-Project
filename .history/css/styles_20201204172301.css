@@ -113,12 +113,6 @@ p {
 	align-items: center;
 }
 
-/* GRID Container */
-.visit {
-	display: flexbox;
-	flex-direction: column;
-}
-
 @media screen and (min-width: 1024px) {
 	header {
 		height: 159.38px;
@@ -171,12 +165,5 @@ p {
 		font-weight: 600;
 		font-size: 40px;
 		margin: 40px;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-	.visit {
-		display: grid;
-		grid-template-areas: none;
 	}
 }
