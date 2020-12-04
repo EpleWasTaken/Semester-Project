@@ -40,6 +40,10 @@ label {
 	z-index: 1;
 }
 
+label li {
+	margin: 20px;
+}
+
 .nav-container {
 	display: flex;
 	flex-direction: column;
@@ -53,24 +57,13 @@ label {
 	justify-content: center;
 }
 
-ul a {
+.nav-links a {
 	display: flex;
 	text-decoration: none;
 	font-size: 25px;
 	justify-content: space-between;
 	list-style-type: none;
 	color: white;
-	margin: 40px;
-	font-size: 40px;
-	font-weight: 600;
-	align-items: center;
-}
-
-ul {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 
 #hamburger-menu {

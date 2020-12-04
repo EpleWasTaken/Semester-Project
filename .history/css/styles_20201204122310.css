@@ -60,17 +60,7 @@ ul a {
 	justify-content: space-between;
 	list-style-type: none;
 	color: white;
-	margin: 40px;
-	font-size: 40px;
-	font-weight: 600;
-	align-items: center;
-}
-
-ul {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	margin: 10px;
 }
 
 #hamburger-menu {
