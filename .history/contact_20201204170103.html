@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="museum, science museum, community museum">
     <meta name="author" content="Erlend Molvik Svanevik">
-    <title>CMS About</title>
+    <title>CMS Contact</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="/css/hamburger.css">
     <script src="https://kit.fontawesome.com/cafca22d75.js" crossorigin="anonymous"></script>
 </head>
 
@@ -43,18 +42,55 @@
     </header>
 
 
+<!---->
+
 <main>
-    <div class="about-container">
-        <div class="about-page">
-            <h2>About Us</h2>
-            <p>We are a group of retiered scientists and teachers who now works here at the museum.</p>
+    <div class="contact-page">
+        <div class="contact-items">
+            <h2>Contact</h2>
+            <p>If you ever need any form of help or assistance, you can contact us at :</p>
+        </div>
+        <div>
+            <a href="#0" class="phone"><a class="fas fa-phone"></a>
+            <p>+45 123 45 678</p>
+        </div>
+        <div>
+            <a href="#0" class="mail"><a class="fas fa-mail"></a>
+            <p>+45 123 45 678</p>
+        </div>
+    </div>
+    <div>
+        <section class="contact-container">
+            <section class="contact-form">
+                <h2>Contact Form</h2>
+                <form action="submit.php" method="GET">
+                    <fieldset class="email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="example@outlook.com...">
+                    </fieldset>
+                    <fieldset class="name">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Aaron Smith...">
+                    </fieldset>
+                    <fieldset class="subject">
+                        <label for="subject">Subject</label>
+                        <input type="subject" name="subject" placeholder="The subject is regarding...">
+                    </fieldset>
+                    <fieldset class="message">
+                        <label for="message">Message</label>
+                        <input type="text" name="message" placeholder="I have a question regarding...">
+                    </fieldset>
+                    <fieldset class="submit">
+                        <button class="btn-submit">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+        </section>          
+    </div>
 </main>
 
 
 
-
-
-<!--FOOTER, TOS/LEGAL/PRIVACY-POLICY AND SOCIALS-->
 
 
     <footer class="footer">
@@ -79,8 +115,7 @@
             </div>
             <div class="footer-copyright">
                 <p>&copy; Erlend Svanevik. All rights reserved. All trademarks and registerd trademarks are the property of
-                   their respective owners.
-                </p>
+                   their respective owners.</p>
             </div> 
         </div>
     </footer>

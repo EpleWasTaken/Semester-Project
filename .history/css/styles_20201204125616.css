@@ -25,71 +25,80 @@ header {
 /* NAVIGATION/HAMBURGER MENU/CLICKEBLE
 -------------------------------------------*/
 
-/*PICTURES
------------------------------------------------*/
-
-.homepic {
-	width: auto;
-	max-width: 100%;
-	height: auto;
+nav {
+	display: none;
 }
 
-/*TEXT/FONT/TEXT ALIGNMENY
---------------------------------------------------*/
+label {
+	display: block;
+	height: 48px;
+	padding: 16px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: white;
+	z-index: 1;
+}
 
-h1 {
+.nav-container {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: black;
+	width: 100%;
+	height: 100vh;
 	justify-content: center;
-	margin-left: auto;
-	margin-right: auto;
-	font-weight: 600;
-	font-size: 30px;
-	margin: 40px;
+}
+
+ul a {
+	display: flex;
+	text-decoration: none;
+	font-size: 25px;
+	justify-content: space-between;
+	list-style-type: none;
+	color: white;
+	margin: 15px;
+	font-weight: 400;
+	align-items: center;
 	text-align: center;
 }
 
 h3 {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
 	justify-content: center;
-	font-weight: 600;
-	font-size: 20px;
-	margin: 40px;
+	align-items: center;
 	text-align: center;
 }
 
-h2 {
+ul h2 {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-left: auto;
-	margin-right: auto;
+	text-decoration: underline;
+	font-size: 35px;
+	justify-content: space-between;
+	list-style-type: none;
+	color: white;
+	margin: 25px;
 	font-weight: 600;
-	font-size: 20px;
-	margin: 40px;
+	align-items: center;
 	text-align: center;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 p {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
 	justify-content: center;
-	font-weight: 600;
-	font-size: 15px;
-	margin: 40px;
-	max-width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-.open-hours p {
-	margin: 20px;
-	margin-left: auto;
-	margin-right: auto;
 	align-items: center;
-	justify-content: center;
 	text-align: center;
 }
 
@@ -101,16 +110,78 @@ p {
 	text-align: center;
 }
 
-.contact-container {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+#hamburger-menu {
+	display: none;
 }
 
-.mail {
+#hamburger-menu:checked ~ nav {
+	display: block;
+}
+
+/*PICTURES
+-----------------------------------------------*/
+
+.homepic {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+/**/
+
+h1 {
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+	font-family: 'poppins', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 600;
+	font-size: 30px;
+	margin: 40px;
+}
+
+h3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'poppins', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 40px;
+}
+
+h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'poppins', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 40px;
+}
+
+p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'poppins', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	margin: 40px;
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.open-hours p {
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	justify-content: center;
 }
 
 @media screen and (min-width: 1024px) {
