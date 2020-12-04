@@ -60,19 +60,7 @@ ul a {
 	justify-content: space-between;
 	list-style-type: none;
 	color: white;
-	margin: 25px;
-	font-weight: 400;
-	align-items: center;
-}
-
-ul h2 {
-	display: flex;
-	text-decoration: underline;
-	font-size: 35px;
-	justify-content: space-between;
-	list-style-type: none;
-	color: white;
-	margin: 25px;
+	margin: 40px;
 	font-weight: 600;
 	align-items: center;
 }

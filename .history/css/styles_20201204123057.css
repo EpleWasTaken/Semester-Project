@@ -56,23 +56,12 @@ label {
 ul a {
 	display: flex;
 	text-decoration: none;
+	font-size: 15px;
+	justify-content: space-between;
+	list-style-type: none;
+	color: white;
+	margin: 40px;
 	font-size: 25px;
-	justify-content: space-between;
-	list-style-type: none;
-	color: white;
-	margin: 25px;
-	font-weight: 400;
-	align-items: center;
-}
-
-ul h2 {
-	display: flex;
-	text-decoration: underline;
-	font-size: 35px;
-	justify-content: space-between;
-	list-style-type: none;
-	color: white;
-	margin: 25px;
 	font-weight: 600;
 	align-items: center;
 }
