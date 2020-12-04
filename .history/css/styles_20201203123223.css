@@ -1,0 +1,104 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'poppins', sans seriff;
+	background-color: white;
+}
+
+header {
+	display: flex;
+	background-color: black;
+}
+
+.logo {
+	max-width: 125px;
+}
+
+.logo-container {
+	height: 66.41px;
+}
+
+nav {
+	display: none;
+}
+
+label {
+	display: block;
+	height: 48px;
+	padding: 16px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: white;
+}
+
+#hamburger-menu {
+	display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+	display: block;
+}
+
+#hamburger-menu:checked ~ nav li {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+@media screen and (min-width: 1024px) {
+	nav {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		font-family: 'poppins', sans-serif;
+		background-color: red;
+		position: absolute;
+		right: 0px;
+	}
+
+	header {
+		height: 159.38px;
+	}
+
+	.logo {
+		display: flex;
+
+		max-width: 300px;
+	}
+
+	.hamburger-menu {
+		display: none;
+	}
+
+	.nav-links {
+		display: flex;
+		width: 30%;
+		background-color: red;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	h1 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	p {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	h3 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
