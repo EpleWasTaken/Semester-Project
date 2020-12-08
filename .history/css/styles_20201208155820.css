@@ -37,7 +37,6 @@ header {
 	width: auto;
 	max-width: 100%;
 	height: auto;
-	margin-bottom: 3vh;
 }
 
 /*TEXT/FONT/TEXT ALIGNMENY
@@ -127,13 +126,13 @@ p {
 
 @media screen and (min-width: 1024px) {
 	header {
-		height: 106.25px;
+		height: 159.38px;
 	}
 
 	.logo {
 		display: flex;
 
-		max-width: 200px;
+		max-width: 300px;
 	}
 
 	.homepic {
@@ -176,7 +175,7 @@ p {
 		font-family: 'poppins', sans-serif;
 		font-weight: 600;
 		font-size: 40px;
-		margin: 20px;
+		margin: 40px;
 	}
 
 	.space,
@@ -187,10 +186,5 @@ p {
 		display: flex;
 		left: 0;
 		right: 0;
-		max-width: 800px;
-		justify-content: center;
-		align-items: center;
-		margin: auto;
-		padding: 4vh;
 	}
 }

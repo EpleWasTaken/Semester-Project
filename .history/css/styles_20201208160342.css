@@ -19,7 +19,7 @@ header {
 }
 
 .logo-container {
-	height: 66.41px;
+	height: 60px;
 }
 
 /* NAVIGATION/HAMBURGER MENU/CLICKEBLE
@@ -37,7 +37,6 @@ header {
 	width: auto;
 	max-width: 100%;
 	height: auto;
-	margin-bottom: 3vh;
 }
 
 /*TEXT/FONT/TEXT ALIGNMENY
@@ -127,13 +126,13 @@ p {
 
 @media screen and (min-width: 1024px) {
 	header {
-		height: 106.25px;
+		height: 159.38px;
 	}
 
 	.logo {
 		display: flex;
 
-		max-width: 200px;
+		max-width: 300px;
 	}
 
 	.homepic {
@@ -176,7 +175,7 @@ p {
 		font-family: 'poppins', sans-serif;
 		font-weight: 600;
 		font-size: 40px;
-		margin: 20px;
+		margin: 40px;
 	}
 
 	.space,
@@ -191,6 +190,5 @@ p {
 		justify-content: center;
 		align-items: center;
 		margin: auto;
-		padding: 4vh;
 	}
 }

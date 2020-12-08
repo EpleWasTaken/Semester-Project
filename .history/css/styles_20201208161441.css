@@ -37,7 +37,6 @@ header {
 	width: auto;
 	max-width: 100%;
 	height: auto;
-	margin-bottom: 3vh;
 }
 
 /*TEXT/FONT/TEXT ALIGNMENY
@@ -176,7 +175,7 @@ p {
 		font-family: 'poppins', sans-serif;
 		font-weight: 600;
 		font-size: 40px;
-		margin: 20px;
+		margin: 40px;
 	}
 
 	.space,
@@ -191,6 +190,5 @@ p {
 		justify-content: center;
 		align-items: center;
 		margin: auto;
-		padding: 4vh;
 	}
 }
