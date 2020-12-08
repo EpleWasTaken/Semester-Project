@@ -135,6 +135,10 @@ p {
 		max-width: 300px;
 	}
 
+	.ant2 > div {
+		display: inline-block;
+	}
+
 	.homepic {
 		display: flex;
 		flex-direction: column;

@@ -184,10 +184,8 @@ p {
 	.science,
 	.ant {
 		display: flex;
-		width: fit-content;
+		width: min-content;
 		max-width: 100%;
 		height: auto;
-		justify-content: center;
-		align-items: center;
 	}
 }
