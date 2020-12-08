@@ -19,7 +19,7 @@ label.hamburger-menu {
 	z-index: 1;
 }
 
-.nav-top {
+.nav-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -56,13 +56,6 @@ ul h2 {
 	align-items: center;
 }
 
-ul {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
 #hamburger-menu {
 	display: none;
 }
@@ -73,22 +66,6 @@ ul {
 
 @media screen and (min-width: 1024px) {
 	label.hamburger-menu {
-		display: none;
-	}
-
-	nav {
-		display: flex;
-		flex-direction: row;
-	}
-
-	.top-nav {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-	}
-
-	#hamburger-menu ~ nav {
 		display: none;
 	}
 }

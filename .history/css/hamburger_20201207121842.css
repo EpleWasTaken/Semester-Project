@@ -19,7 +19,7 @@ label.hamburger-menu {
 	z-index: 1;
 }
 
-.nav-top {
+.nav-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -81,14 +81,20 @@ ul {
 		flex-direction: row;
 	}
 
-	.top-nav {
+	.nav-container {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
+		background-color: red;
+	}
+
+	.nav-top {
+		display: flex;
+		flex-direction: column;
 	}
 
 	#hamburger-menu ~ nav {
-		display: none;
+		display: flex;
 	}
 }

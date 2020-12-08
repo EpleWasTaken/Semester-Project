@@ -28,12 +28,7 @@ header {
 /*PICTURES
 -----------------------------------------------*/
 
-.homepic,
-.space,
-.mammoth,
-.people,
-.science,
-.ant {
+.homepic {
 	width: auto;
 	max-width: 100%;
 	height: auto;
@@ -177,15 +172,27 @@ p {
 		font-size: 40px;
 		margin: 40px;
 	}
+}
 
-	.space,
-	.mammoth,
-	.people,
-	.science,
-	.ant {
+@media screen and (min-width: 1024px) {
+	.visit {
+		display: grid;
+		grid-template-areas: none;
+	}
+
+	nav {
 		display: flex;
-		width: auto;
-		max-width: 100%;
-		height: auto;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: red;
+	}
+
+	.nav-top {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: red;
 	}
 }

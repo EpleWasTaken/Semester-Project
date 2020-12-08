@@ -28,12 +28,7 @@ header {
 /*PICTURES
 -----------------------------------------------*/
 
-.homepic,
-.space,
-.mammoth,
-.people,
-.science,
-.ant {
+.homepic {
 	width: auto;
 	max-width: 100%;
 	height: auto;
@@ -178,12 +173,12 @@ p {
 		margin: 40px;
 	}
 
-	.space,
-	.mammoth,
-	.people,
-	.science,
-	.ant {
-		display: flex;
+	img.200space,
+	img.200mammoth,
+	img.200people,
+	img.200science,
+	img.200ant {
+		display: flex:;
 		width: auto;
 		max-width: 100%;
 		height: auto;
