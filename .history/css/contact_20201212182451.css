@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contact-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 4rem 2rem;
+}

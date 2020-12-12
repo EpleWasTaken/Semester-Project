@@ -1,0 +1,225 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'poppins', sans-serif;
+	background: white;
+}
+
+nav {
+	background-color: black;
+}
+
+header {
+	background: black;
+	height: 53.13px;
+}
+
+.logo {
+	max-width: 100px;
+}
+
+a.fas.fa-phone,
+a.fas.fa-envelope {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.email {
+	display: flex;
+}
+
+/* NAVIGATION/HAMBURGER MENU/CLICKEBLE
+-------------------------------------------*/
+
+/*PICTURES
+-----------------------------------------------*/
+
+.homepic,
+.space,
+.mammoth,
+.people,
+.science,
+.ant {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 3vh;
+}
+
+.employee {
+	display: flex;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+}
+
+/*TEXT/FONT/TEXT ALIGNMENY
+--------------------------------------------------*/
+
+h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 600;
+	font-size: 30px;
+	margin: 40px;
+	text-align: center;
+}
+
+h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 600;
+	font-size: 25px;
+	margin: 40px;
+	text-align: center;
+}
+
+h3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 40px;
+	text-align: center;
+}
+
+p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	font-size: 15px;
+	margin: 40px;
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.open-hours p {
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.contact-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.mail {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+	body {
+		font-family: 'poppins', sans-serif;
+		font-weight: 400;
+	}
+
+	main {
+	}
+
+	header {
+		height: 106.25px;
+	}
+
+	.logo {
+		max-width: 200px;
+	}
+
+	.homepic {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-width: 1664px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h1,
+	h2,
+	h3,
+	p {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	h1 {
+		font-size: 60px;
+		margin: 40px;
+	}
+
+	h2 {
+		font-size: 40px;
+		margin: 20px;
+	}
+
+	h3 {
+		font-size: 30px;
+		margin: 15px;
+	}
+
+	p {
+		font-size: 20px;
+		margin: 40px;
+		max-width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.space,
+	.mammoth,
+	.people,
+	.science,
+	.ant {
+		display: flex;
+		left: 0;
+		right: 0;
+		max-width: 800px;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		padding: 4vh;
+	}
+
+	.employee {
+		display: flex;
+		left: 0;
+		right: 0;
+		max-width: 1000px;
+		width: auto;
+		margin: auto;
+		justify-content: center;
+		align-items: center;
+	}
+}

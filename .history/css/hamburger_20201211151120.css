@@ -1,0 +1,67 @@
+header {
+	background: black;
+	min-height: 100px;
+}
+
+body {
+	font-family: 'poppins', sans-serif;
+	background-color: white;
+}
+
+.logo {
+	max-width: 125px;
+}
+
+nav,
+#hamburger-menu {
+	display: none;
+}
+
+nav ul {
+	padding: 0px;
+}
+
+nav li {
+	display: block;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	display: block;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.hamburger-label {
+	float: right;
+	color: #fff;
+	padding: 10px;
+	font: 1.5em;
+	display: block;
+}
+
+#hamburger-menu:checked ~ nav {
+	display: block;
+}
+
+@media screen and (min-width: 1024px) {
+	.logo {
+		float: left;
+	}
+
+	nav {
+		display: inline-block;
+	}
+
+	.hamburger-label {
+		display: none;
+	}
+
+	ul {
+		display: flex;
+	}
+}

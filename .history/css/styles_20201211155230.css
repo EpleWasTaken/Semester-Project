@@ -1,0 +1,21 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header {
+	background: black;
+	min-height: 53.13;
+	max-width: auto;
+}
+
+.logo {
+	max-width: 100px;
+}
+
+@media screen and (min-width: 1024px) {
+	.logo {
+		max-width: 200px;
+	}
+}

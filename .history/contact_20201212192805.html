@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="museum, science museum, community museum">
+    <meta name="author" content="Erlend Molvik Svanevik">
+    <title>CMS Contact</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/hamburger.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <script src="https://kit.fontawesome.com/cafca22d75.js" crossorigin="anonymous"></script>
+</head>
+
+
+<!--NAVIGAION, LOGO AND SEARCH BAR-->
+
+
+<body>
+    <header>
+        <a href="index.html" aria-label="Go to frontpage">
+            <img src="/Images/CommunityScienceMuseum.jpg" class="logo" alt="Community Science Museum logo">
+        </a>
+        <label class="hamburger-label" for="hamburger-menu" aria-label="Hamburger menu for navigation"><i class="fas fa-bars fa-2x"></i></label>
+        <input type="checkbox" id="hamburger-menu">
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html" aria-label="Go to home page">Home</a></li>
+                <li><a href="visit.html" aria-label="Go to the visit page">Visit</a></li>
+                <li><a href="to-see-and-do.html" aria-label="Go to: To see and do">To see and do</a></li>
+                <li><a href="contact.html" aria-label="Go to the contact page" class="active">Contact</a></li>
+                <li><a href="about.html" aria-label="Go to the about page">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<!--CONTENT-->
+
+
+<main>
+    <div class="contact-page">
+        <div class="contact-items">
+            <h2>Contact</h2>
+            <p>If you ever need any form of help or assistance, you can contact us at :</p>
+        </div>
+        <div>
+            <p>+45 123 45 678</p>
+            <a href="#0" class="phone"><a class="fas fa-phone"></a>
+        </div>
+        <div>
+            <p>You can either send us an email with the adress : community.science@museum.com</p>
+            <a href="#0" class="mail"><a class="fas fa-envelope"></a>
+            <p>Or you can send a message from the form below.</p>
+        </div>
+    </div>
+    <div>
+        <section class="contact-container">
+            <section class="contact-form">
+                <h2>Contact Form</h2>
+                <form action="submit.php" method="GET">
+                    <fieldset class="email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="example@outlook.com...">
+                    </fieldset>
+                    <fieldset class="name">
+                        <label for="name">Name</label>
+                        <input type="name" name="name" placeholder="Aaron Smith...">
+                    </fieldset>
+                    <fieldset class="subject">
+                        <label for="subject">Subject</label>
+                        <input type="subject" name="subject" placeholder="The subject is regarding...">
+                    </fieldset>
+                    <fieldset class="message">
+                        <label for="message">Message</label>
+                        <input type="message" name="message" placeholder="I have a question regarding...">
+                    </fieldset>
+                    <fieldset class="submit">
+                        <button class="btn-submit">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+        </section>          
+    </div>
+</main>
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <ul class="footer-social">
+                <li>
+                    <a href="#0" class="facebook"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#0" class="twitter"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#0" class="youtube"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-container">
+            <div class="footer-legal">
+                <a href="#0">Legal</a>
+                <a href="#0">Privacy Policy</a>
+                <a href="#0">Terms of Service</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; Erlend Svanevik. All rights reserved. All trademarks and registerd trademarks are the property of
+                   their respective owners.</p>
+            </div> 
+        </div>
+    </footer>
+</body>
+</html>
