@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Science Museum Bergen Norway Home Contact Page</title>
-    <meta name="description" content="Welcome to the contact page of Community Science Museum, here you can contact us about anything. You can contact us through email, phone or use the contact form below.">
+    <title>Science Museum Bergen Norway Home Page</title>
+    <meta name="description" content="Welcome to the home page of Community Science Museum, this is a free museum in Bergen Norway that is working on making it more fun learning about cosmology, evolution, biology and medecine, robotic and AI and also ecology.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="museum, science museum, community museum">
     <meta name="author" content="Erlend Molvik Svanevik">
@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/hamburger.css">
-    <link rel="stylesheet" href="/css/contact.css">
     <script src="https://kit.fontawesome.com/cafca22d75.js" crossorigin="anonymous"></script>
 </head>
 
@@ -24,17 +23,17 @@
 
 <body>
     <header>
-        <a href="index.html" aria-label="Go to frontpage">
+        <a href="index.html" aria-label="Logo, on click will redirect you to frontpage">
             <img src="/Images/CommunityScienceMuseum.jpg" class="logo" alt="Community Science Museum logo">
         </a>
         <label class="hamburger-label" for="hamburger-menu" aria-label="Hamburger menu for navigation"><i class="fas fa-bars fa-2x"></i></label>
         <input type="checkbox" id="hamburger-menu">
         <nav>
             <ul class="nav">
-                <li><a href="index.html" aria-label="Go to home page">Home</a></li>
+                <li><a href="index.html" aria-label="Go to home page" class="active">Home</a></li>
                 <li><a href="visit.html" aria-label="Go to the visit page">Visit</a></li>
                 <li><a href="to-see-and-do.html" aria-label="Go to: To see and do">To see and do</a></li>
-                <li><a href="contact.html" aria-label="Go to the contact page" class="active">Contact</a></li>
+                <li><a href="contact.html" aria-label="Go to the contact page">Contact</a></li>
                 <li><a href="about.html" aria-label="Go to the about page">About</a></li>
             </ul>
         </nav>
@@ -45,40 +44,36 @@
 
 
 <main>
-    <div class="contact-page">
-        <div class="contact-items">
-            <h2>Contact</h2>
-            <p>If you ever need any form of help or assistance, you can contact us at :</p>
+    <section class="presentation">
+        <div class="introduction">
+            <div class="welcome-text">
+                <h1>Explore together</h1>
+                <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
+            </div>
+            <div class="home-image">
+                <img src="/Images/200kbmuseum.jpg" class="homepic" alt="Scinence museum hallway">
+            </div>
+            <div>
+                <h2>For kids</h2>
+                <p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.
+                   You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.
+                   We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll get to explore and experiment with our team of experts.
+                   During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.
+                </p>
+            </div>
+            <div>
+                </a>
+                <h3>What's new?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio natus nihil soluta deleniti fuga consequuntur quos suscipit ratione, 
+                ipsam, laboriosam dolorum, veritatis saepe beatae incidunt eos autem fugit commodi sequi!</p>
+            </div>
         </div>
-        <div>
-            <p>+45 123 45 678</p>
-            <a href="#0" class="phone"><a class="fas fa-phone"></a>
-        </div>
-        <div>
-            <p>You can either send us an email with the adress : community.science@museum.com</p>
-            <a href="#0" class="mail"><a class="fas fa-envelope"></a>
-            <p>Or you can send a message from the form below.</p>
-        </div>
-    </div>
-    <div class="container">
-        <form action="contact_form.php">
-
-            <label for="name">Full name</label>
-            <input type="text" id="name" name="Full name" placeholder="Your full name..." aria-label="Your full name">
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@outlook.com..." aria-label="Your email">
-
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="I need help with/I have a question regarding..." aria-label="Tell us what you need help with" style="height:150px"></textarea>
-
-            <input aria-label="Send form" type="submit" value="Send">
-        </form>
-    </div>    
+    </section>
 </main>
 
 
 
+<!--FOOTER, TOS/LEGAL/PRIVACY-POLICY AND SOCIALS-->
 
 
     <footer class="footer">

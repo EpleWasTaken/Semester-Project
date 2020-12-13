@@ -39,7 +39,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-	background-color: #cc6600;
+	background-color: tomato;
 }
 
 .container {
