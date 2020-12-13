@@ -134,9 +134,6 @@ p {
 	align-items: center;
 }
 
-/* For screens greater than 1024px
--------------------------------------------*/
-
 @media screen and (min-width: 1024px) {
 	body {
 		font-family: 'poppins', sans-serif;

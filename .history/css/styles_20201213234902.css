@@ -134,7 +134,7 @@ p {
 	align-items: center;
 }
 
-/* For screens greater than 1024px
+/* For screens greater than 1024
 -------------------------------------------*/
 
 @media screen and (min-width: 1024px) {

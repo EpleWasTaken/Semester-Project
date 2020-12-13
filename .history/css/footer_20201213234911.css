@@ -6,9 +6,6 @@
 	box-sizing: border-box;
 }
 
-/* Footer with social and legal links
--------------------------------------------*/
-
 footer {
 	display: flex;
 	flex-direction: column;

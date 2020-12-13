@@ -3,10 +3,8 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-
 /* NAVIGATION/HAMBURGER MENU/CLICKEBLE
 -------------------------------------------*/
-
 nav,
 #hamburger-menu {
 	display: none;
@@ -56,7 +54,7 @@ nav a {
 	display: flex;
 }
 
-/* For screens greater than 1024px
+/* For screens greater than 1024
 -------------------------------------------*/
 
 @media screen and (min-width: 1024px) {

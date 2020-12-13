@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Science Museum Bergen Norway Home About Page</title>
-    <meta name="description" content="Welcome to the about page of Community Science Museum. Here you can read about who we are and how this museum came about.">
+    <title>Science Museum Bergen Norway Home Contact Page</title>
+    <meta name="description" content="Welcome to the contact page of Community Science Museum, here you can contact us about anything. You can contact us through email, phone or use the contact form below.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="museum, science museum, community museum">
     <meta name="author" content="Erlend Molvik Svanevik">
@@ -14,11 +14,12 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/hamburger.css">
+    <link rel="stylesheet" href="/css/contact.css">
     <script src="https://kit.fontawesome.com/cafca22d75.js" crossorigin="anonymous"></script>
 </head>
 
 
-<!--NAVIGAION and LOGO-->
+<!--NAVIGAION, LOGO AND SEARCH BAR-->
 
 
 <body>
@@ -33,33 +34,54 @@
                 <li><a href="index.html" aria-label="Go to home page">Home</a></li>
                 <li><a href="visit.html" aria-label="Go to the visit page">Visit</a></li>
                 <li><a href="to-see-and-do.html" aria-label="Go to: To see and do">To see and do</a></li>
-                <li><a href="contact.html" aria-label="Go to the contact page">Contact</a></li>
-                <li><a href="about.html" aria-label="Go to the about page" class="active">About</a></li>
+                <li><a href="contact.html" aria-label="Go to the contact page" class="active">Contact</a></li>
+                <li><a href="about.html" aria-label="Go to the about page">About</a></li>
             </ul>
         </nav>
     </header>
 
 
-<!--CONTENT with text of the about page-->
+<!--CONTENT of the page with text and and a contact form-->
 
 
 <main>
-    <div class="about-container">
-        <div class="about-page">
-            <h1>About Us</h1>
-            <p>We are a group of retiered scientists and teachers who now works here at the museum. 
-            We decided to start a museum since we have a lot of knowlege around cosmology, evolution, biology and medecine etc. 
-            Going to a museum can make it a more fun expeience learning new things as we know reading and studying can be tough.</p>
+    <div class="contact-page">
+        <div class="contact-items">
+            <h1>Contact</h1>
+            <p>If you ever need any form of help or assistance, you can contact us at :</p>
+        </div>
+        <div>
+            <p>+45 123 45 678</p>
+            <a class="phone" aria-label="Phone icon" ><a class="fas fa-phone" aria-hidden="true"></a>
+        </div>
+        <div>
+            <p>You can either send us an email with the adress : community.science@museum.com</p>
+            <a class="mail" aria-label="Email icon or a envelope"><a class="fas fa-envelope" aria-hidden="true"></a>
+            <p>Or you can send a message from the form below.</p>
         </div>
     </div>
-    <img src="./Images/Avatar2.png" class="employee" alt="A picture of three cartoon characters">
+    <div class="container">
+        <form action="contact_form.php">
+
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="Full name" placeholder="Your full name..." aria-label="Your full name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@outlook.com..." aria-label="Your email">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="I need help with/I have a question regarding..." aria-label="Tell us what you need help with" style="height:150px"></textarea>
+
+            <input aria-label="Send form" type="submit" value="Send">
+        </form>
+    </div>    
 </main>
 
 
-<!--FOOTER, TOS/LEGAL/PRIVACY-POLICY AND SOCIALS-->
+<!--FOOTER with social and legal links on it-->
 
 
-<footer class="footer">
+    <footer class="footer">
         <div class="footer-container">
             <ul class="footer-social">
                 <li>
@@ -81,8 +103,7 @@
             </div>
             <div class="footer-copyright">
                 <p>&copy; Erlend Svanevik. All rights reserved. All trademarks and registerd trademarks are the property of
-                   their respective owners.
-                </p>
+                   their respective owners.</p>
             </div> 
         </div>
     </footer>

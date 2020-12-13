@@ -3,10 +3,8 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-
 /* NAVIGATION/HAMBURGER MENU/CLICKEBLE
 -------------------------------------------*/
-
 nav,
 #hamburger-menu {
 	display: none;

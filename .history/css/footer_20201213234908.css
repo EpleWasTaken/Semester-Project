@@ -6,9 +6,6 @@
 	box-sizing: border-box;
 }
 
-/* Footer with social and legal links
--------------------------------------------*/
-
 footer {
 	display: flex;
 	flex-direction: column;
@@ -86,7 +83,7 @@ ul {
 	list-style: none;
 }
 
-/* For screens greater than 1024px
+/* For screens greater than 1024
 -------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
