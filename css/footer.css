@@ -18,6 +18,7 @@ footer {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
 	padding: 10px;
+	margin-top: 50px;
 }
 
 .footer-container {
@@ -114,8 +115,9 @@ ul {
 		text-decoration: none;
 	}
 
-	.footer-container {
+	.footer-container p {
 		text-decoration: none;
+		text-align: center;
 	}
 
 	.footer-social li {
