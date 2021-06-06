@@ -20,7 +20,8 @@ header {
 
 .logo {
 	width: 100px;
-	height: 53.13;
+	height: 100%;
+	display: block;
 }
 
 a.fas.fa-phone,
@@ -52,10 +53,10 @@ a.fas.fa-envelope {
 .people,
 .science,
 .ant {
-	width: auto;
+	display: block;
+	width: 100%;
 	max-width: 100%;
 	height: auto;
-	margin-bottom: 3vh;
 }
 
 .employee {
@@ -105,12 +106,10 @@ p {
 	align-items: center;
 	justify-content: center;
 	font-weight: 600;
-	font-size: 15px;
-	margin: 40px;
+	font-size: 18px;
+	margin: 0 auto;
+	margin-bottom: 40px;
 	max-width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
 }
 
 .open-hours p {
@@ -143,16 +142,12 @@ p {
 		font-weight: 400;
 	}
 
-	main {
-	}
-
 	header {
 		height: 106.25px;
 	}
 
 	.logo {
 		width: 200px;
-		height: 106.25;
 	}
 
 	.homepic {
@@ -163,6 +158,16 @@ p {
 		max-width: 1664px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.exhibition__container {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+
+	.card__container {
+		border: 1px solid red;
+		height: 100%;
 	}
 
 	h1,
@@ -191,10 +196,9 @@ p {
 
 	p {
 		font-size: 20px;
-		margin: 40px;
-		max-width: 50%;
-		margin-left: auto;
-		margin-right: auto;
+		max-width: 80%;
+		margin: 0 auto;
+		text-align: left;
 	}
 
 	.space,
@@ -203,13 +207,13 @@ p {
 	.science,
 	.ant {
 		display: flex;
-		left: 0;
-		right: 0;
+		object-fit: cover;
+		height: 385px;
+		width: 80%;
 		max-width: 800px;
 		justify-content: center;
 		align-items: center;
-		margin: auto;
-		padding: 4vh;
+		margin: 0 auto;
 	}
 
 	.employee {
